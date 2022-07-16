@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: aliceblue;
+    display: grid;
+    text-align: centre;
+    grid-template-areas: 
+    'a b c'
+    'a b c'
+    'a b c'
+    'a b c'
+    ;
+    padding: 20px;
+    margin:70px ;
+    border: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: none;
+}
+
+main div{
+    color: aliceblue;
+}
+div button{
+    background-color: aliceblue;
+    padding: 10px;
+    width: 50%;
+    border-radius:5em;
+    margin: 10px;
+}
+.item-a{
+    background-color:hsl(31,77%,52%);
+    grid-area: a;
+    padding: 20px;
+    word-spacing: 5px;
+}
+.item-b{
+    background-color:hsl(184, 100%, 22%);
+    grid-area: b;
+    padding: 20px;
+    word-spacing:10px;
+}
+.item-c{
+    background-color:hsl(179,100%,13%);
+    grid-area: c;
+    padding: 20px;
+    word-spacing: 5px;
+}
